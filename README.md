@@ -22,3 +22,6 @@ The chatbot consists of multiple components:
 3. ChatMessage.jsx – Displays messages from users and AI.
 4. ChatbotIcon.jsx – Renders the chatbot icon.
 5. vite.config.js – Configures Vite for React.
+
+Also for .env file create an gemini API Key and add in after the work used that is key
+VITE_API_URL=https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent?key=...........
